@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+ 
+
+/* Necessary for full page carousel*/
+html,
+body,
+.view {
+  height: 100%;
+}
+
+/* Carousel*/
+.carousel,
+.carousel-item,
+.carousel-item.active {
+  height: 100%;
+}
+.carousel-inner {
+  height: 100%;
+}
+.carousel-item:nth-child(1) {
+  background-image: url("./bg1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.carousel-item:nth-child(2) {
+  background-image: url("./bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.carousel-item:nth-child(3) {
+  background-image: url("./iotbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+h1,p {
+    text-align: center;
+    
+  
+}
+h1{
+    font-family: 'Righteous', cursive;
+    color:  #cb4335 ;
+    
+}
+@media only screen and (min-width: 600px) {
+   .links-mb{
+       display: none;
+   }
+  }
